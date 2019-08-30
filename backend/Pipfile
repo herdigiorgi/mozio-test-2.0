@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylama = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-phonenumber-field = "*"
+phonenumbers = "*"
+django-languages-plus = "*"
+django-money = "*"
+psycopg2 = "*"
+psycopg2-binary = "*"
+django-countries-plus = "*"
+redis = "*"
+django-rest-swagger = "*"
+coreapi = "*"
+drf-yasg = "*"
+packaging = "*"
+faker = "*"
+
+[requires]
+python_version = "3.7"
